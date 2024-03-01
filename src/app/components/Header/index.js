@@ -13,6 +13,7 @@ export default function Header () {
                             width={190}
                             height={190}
                             alt="Logo Alex Automóveis"
+                            className="w-36 sm:w-40"
                         />
                     </a>
                     <div className="flex items-center lg:order-2">

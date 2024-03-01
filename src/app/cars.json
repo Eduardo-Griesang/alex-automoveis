@@ -1,0 +1,138 @@
+[
+    {   
+        "id": 1,
+        "img": "/carros/cruze 2015.jpeg",
+        "nome": "CRUZE 1.8 LT 16V",
+        "ano": "2015/2015",
+        "preco": "R$68.990,00",
+        "adicionais": ["Air Bag","Air Bag Duplo","Alarme","Ar Condicionado","Ar Condicionado Digital","Ar Quente","Banco de Couro","Banco Regulável Altura","Chave Reserva",
+            "Computador de Bordo","Desembaçador Traseiro","Direção Elétrica","Direção Escamoteável","Direção Hidráulica","Direção Multifuncional","Entrada USB","Freios ABS","Interface","Limpador Traseiro","Manual do proprietário","Parachoques na cor","Película Solar","Piloto Automatico","Porta Malas Elétrico",
+            "Protetor de Carter","Rádio com espelhamento celular","Rádio u-connect","Retrovisor Elétrico","Rodas de Liga Leve","Sensor de Estacionamento","Som Bluetooth","Som no Volante","Som Original","Som Rádio","Travas Elétricas","Vidros Elétricos"],
+        "comentario": "CARRO DE SEGUNDO DONO, 4 PNEUS NOVOS. CARRO EM ÓTIMO ESTADO CONSERVAÇÃO"
+    },
+    {   
+        "id": 2,
+        "img": "/carros/onix.jpeg",
+        "nome": "ONIX 1.4 MPFI LTZ 8V",
+        "ano": "2015/2015",
+        "preco": "R$54.990,00",
+        "adicionais": ["Air Bag","Alarme","Air Bag Duplo","Ar Condicionado","Ar Quente","Banco Regulável Altura","Câmbio CVT","Chave Reserva","Computador de Bordo","Desembaçador Traseiro","Direção Escamoteável",
+            "Direção Hidráulica","Direção Multifuncional","Entrada USB","Faróis Auxiliares","Freios ABS","Interface","Limpador Traseiro","Manual do proprietário","My Link","Película Solar","Porta Malas Elétrico","Protetor de Carter","Rádio com espelhamento celular","Retrovisor Elétrico",
+            "Rodas de Liga Leve","Som Bluetooth","Som no Volante","Som Original","Som Rádio","Travas Elétricas","Vidros Elétricos"],
+        "comentario": ""
+    },
+    {   
+        "id": 3,
+        "img": "/carros/prisma.jpeg",
+        "nome": "PRISMA 1.4 LT 8V",
+        "ano": "2011/2012",
+        "preco": "R$34.990,00",
+        "adicionais": ["Alarme","Ar Condicionado","Ar Quente","Chave Reserva","Desembaçador Traseiro","Direção Hidráulica","Interface","Manual do proprietário","Parachoques na cor","Som Rádio","Som Rádio CD","Travas Elétricas","Vidros Elétricos"],
+        "comentario": "RARIDADE CARRO DE SEGUNDO DONO COM 77.000KM IMPECÁVEL"
+    },
+    {   
+        "id": 4,
+        "img": "/carros/cronos.jpeg",
+        "nome": "CRONOS 1.8 PRECISION 16V",
+        "ano": "2021/2021",
+        "preco": "R$79.990,00",
+        "adicionais": ["Air Bag","Air Bag Duplo","Alarme","Ar Condicionado Digital","Ar Quente","Banco Regulável Altura","Chave Reserva","Computador de Bordo","Desembaçador Traseiro","Direção Elétrica","Direção Escamoteável","Direção Multifuncional","Entrada USB","Faróis Auxiliares",
+            "Freios ABS","Interface","Manual do proprietário","Paddle Shift / Borboleta","Parachoques na cor","Película Solar","Piloto Automatico","Porta Malas Elétrico","Protetor de Carter","Rádio com espelhamento celular",
+            "Retrovisor Elétrico","Rodas de Liga Leve","Sensor de Estacionamento","Som Bluetooth","Som no Volante","Som Original","Som Rádio","Start Stop","Travas Elétricas","Vidros Elétricos"],
+        "comentario": "CARRO DE ÚNICO DONO, COM APENAS 65.000KM. TODO REVISADO, CARRO TOP DE LINHA"
+    },
+    {   
+        "id": 5,
+        "img": "/carros/freemont.jpeg",
+        "nome": "FREEMONT 2.4 PRECISION 16V",
+        "ano": "2012/2013",
+        "preco": "R$56.990,00",
+        "adicionais": ["7 LUGARES","AIR BAG","AIR BAG DUPLO","ALARME","AR CONDICIONADO","BANCO ELÉTRICO","BANCO REGULÁVEL ALTURA","CÂMERA DE RÉ","CHAVE RESERVA","COMPUTADOR DE BORDO","DESEMBAÇADOR TRASEIRO","DIREÇÃO HIDRÁULICA",
+            "DIREÇÃO MULTIFUNCIONAL","ENTRADA USB","FARÓIS AUXILIARES","FREIOS ABS","MANUAL DO PROPRIETÁRIO","MULTIMÍDIA","PARACHOQUES NA COR","PELÍCULA SOLAR","PORTA MALAS ELÉTRICO","RETROVISOR ELÉTRICO",
+            "RODAS DE LIGA LEVE","SOM NO VOLANTE","SOM ORIGINAL","SOM RÁDIO","START STOP","TRAVAS ELÉTRICAS","Vidros Elétricos"],
+        "comentario": "CAMIONETE TODA REVISADA, COM 104.000KM, IMPECÁVEL"
+    },
+    {   
+        "id": 6,
+        "img": "/carros/strada.jpeg",
+        "nome": "STRADA 1.8 MPI ADVENTURE 16V",
+        "ano": "2013/2013",
+        "preco": "R$52.990,00",
+        "adicionais": ["Air Bag","Air Bag Duplo","Alarme","Ar Condicionado","Ar Quente","Banco Regulável Altura","Cabine Estendida","Chave Reserva","Direção Escamoteável","Direção Hidráulica",
+            "Entrada USB","Faróis Auxiliares","Freios ABS","Interface","Manual do proprietário", "Parachoques na cor","Película Solar","Retrovisor Elétrico","Rodas de Liga Leve","Som Rádio","Travas Elétricas"],
+        "comentario": "CAMIONETE DE ÚNICO DONO COM 117000KM, IPVA 2024 PAGO TODA REVISADA"
+    },
+    {   
+        "id": 7,
+        "img": "/carros/fiesta.jpeg",
+        "nome": "FIESTA 1.6 MPI SEDAN 8V",
+        "ano": "2013/2014",
+        "preco": "R$36.990,00",
+        "adicionais": ["AIR BAG","AIR BAG DUPLO","ALARME","AR CONDICIONADO","AR QUENTE","BANCO DE COURO","CÂMERA DE RÉ","CHAVE RESERVA","DESEMBAÇADOR TRASEIRO","DIREÇÃO HIDRÁULICA","ENTRADA USB","FARÓIS AUXILIARES",
+            "INTERFACE","MANUAL DO PROPRIETÁRIO","MULTIMÍDIA","PARACHOQUES NA COR","PELÍCULA SOLAR","PORTA MALAS ELÉTRICO","RODAS DE LIGA LEVE","SENSOR DE ESTACIONAMENTO",
+            "SOM BLUETOOTH","SOM RÁDIO","TRAVAS ELÉTRICAS","VIDROS ELÉTRICOS"],
+        "comentario": "CARRO BEM CONSERVADO, TODO REVISADO, IPVA 2024 PAGO"
+    },
+    {   
+        "id": 8,
+        "img": "/carros/ka.jpeg",
+        "nome": "KA 1.0 SE 12V",
+        "ano": "2019/2020",
+        "preco": "R$49.990,00",
+        "adicionais": ["Air Bag","Air Bag Duplo","Alarme","Ar Condicionado","Ar Quente","Banco Regulável Altura","Chave Reserva","Desembaçador Traseiro","Direção Escamoteável","Direção Hidráulica","Entrada USB","Faróis Auxiliares","Freios ABS",
+            "Interface","Limpador Traseiro","Manual do proprietário","Multimídia","Parachoques na cor","Película Solar","Porta Malas Elétrico","Rádio com espelhamento celular","Retrovisor Elétrico","Rodas de Liga Leve",
+            "Som Bluetooth","Som no Volante","Som Original","Som Rádio","Travas Elétricas","Vidros Elétricos"],
+        "comentario": "CARRO DE ÚNICO DONO, 5PNEUS NOVOS COM 92.000KM, CARRO TOP"
+    },
+    {   
+        "id": 9,
+        "img": "/carros/kasedan.jpeg",
+        "nome": "KA+SEDAN 1.5 SE PLUS 16V",
+        "ano": "2015/2015",
+        "preco": "R$44.990,00",
+        "adicionais": ["Air Bag Duplo","Alarme","Ar Condicionado","Ar Quente","Banco Regulável Altura","Chave Reserva","Desembaçador Traseiro","Direção Escamoteável","Direção Hidráulica","Entrada USB","Freios ABS","Interface","Manual do proprietário",
+            "Parachoques na cor","Película Solar","Porta Malas Elétrico","Rádio u-connect","Retrovisor Elétrico","Sensor de Estacionamento","Som Bluetooth","Som Original","Som Rádio","Som Rádio CD","Travas Elétricas"],
+        "comentario": "CARRO COM 4PNEUS NOVOS, TODO REVISADO, IMPECÁVEL"
+    },
+    {   
+        "id": 10,
+        "img": "/carros/azera.jpeg",
+        "nome": "AZERA 3.0 MPFI GLS SEDAN V6 24V",
+        "ano": "2013/2014",
+        "preco": "R$83.990,00",
+        "adicionais": ["Air Bag","Air Bag Duplo","Alarme","Alerta colisão frontal","Ar Condicionado","Ar Condicionado Digital","Ar Quente","Banco de Couro","Banco Elétrico","Banco Recaro","Câmera de Ré","Chave Reserva","Controle de Estabilidade","Desembaçador Traseiro","Direção Elétrica","Direção Escamoteável","Direção Multifuncional","Entrada USB", "Faróis Auxiliares",
+            "Freios ABS","GPS","Interface","Manual do proprietário","Multimídia","Parachoques na cor","Piloto Automatico","Porta Malas Elétrico","Protetor de Carter","Rádio com espelhamento celular","Retrovisor Elétrico","Retrovisor Rabatimento Aut.",
+            "Rodas de Liga Leve","Sensor de Chuva","Sensor de Estacionamento","Som Bluetooth","Som no Volante","Som Original","Som Rádio","Teto Panoramico","Travas Elétricas","Vidros Elétricos"],
+        "comentario": "CARRO COM 81.000KM, SEGUNDO DONO, IMPECÀVEL"
+    },
+    {   
+        "id": 11,
+        "img": "/carros/hb20.jpeg",
+        "nome": "HB20 1.0 EVOLUTION 12V",
+        "ano": "2021/2022",
+        "preco": "R$68.990,00",
+        "adicionais": ["Air Bag","Air Bag Duplo","Alarme","Ar Condicionado","Ar Quente","Banco Regulável Altura","Câmera de Ré","Chave Reserva","Computador de Bordo","Desembaçador Traseiro","Direção Elétrica","Direção Escamoteável","Direção Multifuncional","Entrada USB","Freios ABS","Interface",
+            "Limpador Traseiro","Manual do proprietário","Multimídia","Parachoques na cor","Película Solar","Porta Malas Elétrico","Rádio com espelhamento celular","Retrovisor Elétrico","Rodas de Liga Leve","Som Bluetooth","Som no Volante","Som Original","Som Rádio","Travas Elétricas","Vidros Elétricos"],
+        "comentario": "CARRO DE ÚNICO DONO. TODO REVISADO"
+    },
+    {   
+        "id": 12,
+        "img": "/carros/duster.jpeg",
+        "nome": "DUSTER 2.0 DYNAMIQUE 4X2 16V",
+        "ano": "2012/2013",
+        "preco": "R$48.990,00",
+        "adicionais": ["AIR BAG","AIR BAG DUPLO","ALARME","AR CONDICIONADO","AR QUENTE","BANCO DE COURO","BANCO REGULÁVEL ALTURA","CHAVE RESERVA","DESEMBAÇADOR TRASEIRO","DIREÇÃO ESCAMOTEÁVEL","DIREÇÃO MULTIFUNCIONAL","ENTRADA USB","FARÓIS AUXILIARES",
+            "FREIOS ABS","LIMPADOR TRASEIRO","MANUAL DO PROPRIETÁRIO","MULTIMÍDIA","PARACHOQUES NA COR","PORTA MALAS ELÉTRICO","PROTETOR DE CARTER","RETROVISOR ELÉTRICO","SENSOR DE ESTACIONAMENTO","SOM BLUETOOTH","SOM RÁDIO","SOM RÁDIO CD","SOM RÁDIO MP3","TRAÇÃO 4X2","TRAVAS ELÉTRICAS","VIDROS ELÉTRICOS"],
+        "comentario": "CAMIONETE COM 4PNEUS NOVOS, TODA REVISADA"
+    },
+    {   
+        "id": 13,
+        "img": "/carros/etios.jpeg",
+        "nome": "ETIOS 1.5 PLATINUM SEDAN 16V",
+        "ano": "2017/2018",
+        "preco": "R$65.990,00",
+        "adicionais": ["Air Bag","Air Bag Duplo","Alarme","Ar Condicionado","Ar Quente","Banco de Couro","Banco Regulável Altura","Câmbio CVT","Câmera de Ré","Chave Reserva","Computador de Bordo","Desembaçador Traseiro","Direção Elétrica","Direção Escamoteável","Direção Multifuncional","Entrada USB","Faróis Auxiliares","Interface","Manual do proprietário",
+            "Multimídia","Parachoques na cor","Película Solar","Piloto Automatico","Porta Malas Elétrico","Protetor de Carter","Retrovisor Elétrico","Rodas de Liga Leve","Sensor de Estacionamento","Som Bluetooth","Som no Volante","Som Original","Som Rádio","Som Rádio CD","Travas Elétricas","Vidros Elétricos"],
+        "comentario": "CARO DE SEGUNDO TODO, REVISADO ATÉ 88.000KM NA CONCESSIONARIA. CARRO COM 101.000KM IMPECÁVEL"
+    }
+]
