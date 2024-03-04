@@ -2,7 +2,7 @@ import Car from "./Car";
 import compacto from "../../images/compacto.webp"
 import sedan from "../../images/sedan.webp"
 import suv from "../../images/suv.webp"
-import conversivel from "../../images/compacto.webp"
+import conversivel from "../../images/conversivel.webp"
 import coupe from "../../images/coupe.webp"
 
 
