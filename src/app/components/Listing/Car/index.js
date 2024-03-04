@@ -19,7 +19,9 @@ export default function CarSec ({specs}){
             </div>
 
             <div className="flex justify-center items-center w-full bg-red-600 hover:bg-red-700 rounded-md">
-                <Link href="/" className="text-lg text-white hover:cursor-pointer w-full">Confira</Link>
+                <Link href={`/car/${specs.id}`} passHref className="text-lg text-white hover:cursor-pointer w-full">
+                    Confira
+                </Link>
             </div>
         </section>
     )
