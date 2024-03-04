@@ -1,10 +1,24 @@
+"use client"
 import Image from "next/image";
 import logo from "../../images/logo.png"
 import background from "../../images/background.jpg"
+import { useEffect, useRef } from "react";
+import { useAnimation, useInView, motion } from "framer-motion";
 
 export default function Header () {
+
+    const headerRef = useRef(null)
+    const inView = useInView(headerRef, {once:true})
+    const headerAnimate = useAnimation()
+
+    useEffect(() => {
+        if(inView){
+        headerAnimate.start("visible")
+        }
+    }, [inView])
+
     return (
-        <header className="relative scroll-smooth">
+        <header className="relative scroll-smooth" ref={headerRef}>
             <nav className="bg-transparent border-gray-200 px-4 lg:px-6 py-2.5 lg:absolute lg:top-3 w-screen">
                 <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
                     <a href="#" className="flex items-center">
@@ -50,10 +64,18 @@ export default function Header () {
                     alt="Logo Alex Automóveis"
                     className="min-h-72 object-cover"
                 />
-                <div className="absolute top-1/2 w-full flex flex-col justify-center text-center gap-1 sm:gap-3">
+                <motion.div className="absolute top-1/2 w-full flex flex-col justify-center text-center gap-1 sm:gap-3"
+                    variants={{
+                        hidden: {y: 100, opacity:0},
+                        visible: {y: 0, opacity:1}
+                      }}
+                      initial="hidden"
+                      transition={{duration: 0.5}}
+                      animate={headerAnimate}
+                >
                     <h1 className="text-3xl sm:text-5xl font-bold">Encontre seu Próximo Veículo</h1>
                     <span className="text-sm sm:text-lg">Na melhor revenda da região</span>
-                </div>
+                </motion.div>
             </section>
         </header>
     )
