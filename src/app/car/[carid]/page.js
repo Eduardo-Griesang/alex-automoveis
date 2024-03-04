@@ -1,10 +1,19 @@
-import Header from "@/app/components/Header"
+"use client"
+import { useEffect, useState } from "react"
+import json from "../../cars.json"
+import Menu from "./Menu"
 
 export default function Car({ params }) {
-    console.log(params.carid)
+    const [car, setcar] = useState()
+
+    useEffect(() => {
+        setcar(json.filter((car) => car.id == params.carid))
+        console.log(params.carid)
+    },[])
+    
     return(
-        <section>
-            <h1>id = {params.carid}</h1>
-        </section>
+        <main>
+            <Menu />
+        </main>
     )
 }

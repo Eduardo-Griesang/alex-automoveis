@@ -3,6 +3,8 @@ import Types from "./components/TypesV";
 import Listing from "./components/Listing";
 import Reasons from "./components/Reasons";
 import AboutUs from "./components/AboutUs";
+import Visit from "./components/Visit";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -12,6 +14,8 @@ export default function Home() {
       <Listing />
       <Reasons />
       <AboutUs />
+      <Visit />
+      <Footer />
     </main>
   );
 }

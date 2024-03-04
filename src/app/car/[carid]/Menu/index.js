@@ -1,13 +1,13 @@
 import Image from "next/image";
-import logo from "../../images/logo.png"
-import background from "../../images/background.jpg"
+import logo from "../../../images/logo.png"
+import Link from "next/link";
 
-export default function Header () {
-    return (
-        <header className="relative scroll-smooth">
+export default function Menu() {
+    return(
+        <header>
             <nav className="bg-transparent border-gray-200 px-4 lg:px-6 py-2.5 lg:absolute lg:top-3 w-screen">
                 <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
-                    <a href="#" className="flex items-center">
+                    <Link href={'/'} className="flex items-center">
                         <Image 
                             src={logo}
                             width={190}
@@ -15,7 +15,7 @@ export default function Header () {
                             alt="Logo Alex Automóveis"
                             className="w-36 sm:w-40"
                         />
-                    </a>
+                    </Link>
                     <div className="flex items-center lg:order-2">
                         <button data-collapse-toggle="mobile-menu-2" type="button" className="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="mobile-menu-2" aria-expanded="false">
                             <span className="sr-only">Open main menu</span>
@@ -41,20 +41,6 @@ export default function Header () {
                     </div>
                 </div>
             </nav>
-
-            <section className="text-white">
-                <Image 
-                    src={background}
-                    width={1920}
-                    height={1080}
-                    alt="Logo Alex Automóveis"
-                    className="min-h-72 object-cover"
-                />
-                <div className="absolute top-1/2 w-full flex flex-col justify-center text-center gap-1 sm:gap-3">
-                    <h1 className="text-3xl sm:text-5xl font-bold">Encontre seu Próximo Veículo</h1>
-                    <span className="text-sm sm:text-lg">Na melhor revenda da região</span>
-                </div>
-            </section>
         </header>
     )
 }

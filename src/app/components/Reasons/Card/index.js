@@ -16,7 +16,7 @@ export default function Card({title, description, img, color}) {
     },[])
     
     return (
-        <section className="flex flex-col gap-4">
+        <section className="flex flex-col gap-4 py-10 rounded-md hover:bg-white">
             <FontAwesomeIcon icon={Icon} style={{color: color,}} className="text-7xl" />
 
             <section className="flex flex-col gap-2 max-w-80 lg:max-w-full">

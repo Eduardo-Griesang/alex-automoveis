@@ -13,7 +13,7 @@ export default function Listing () {
     const list = json.filter((car) => car.id < filter)
 
     return (
-        <section className="flex flex-col py-7 lg:py-16 px-2 lg:gap-6 lg:px-10 gap-5 text-center items-center">
+        <section className="flex flex-col py-7 lg:py-16 px-2 lg:gap-6 lg:px-10 gap-5 text-center items-center" id="estoque">
             <h2 className="font-bold text-xl lg:text-3xl pb-2 lg:pb-5 xl:pb-7">Confira Nosso Estoque</h2>
 
             <section className="grid gap-3 lg:gap-6 grid-cols-1 place-items-center md:grid-cols-2 xl:grid-cols-4 xl:w-4/5">
