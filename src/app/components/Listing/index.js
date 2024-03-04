@@ -1,14 +1,24 @@
 "use client"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import json from "../../cars.json"
 import CarSec from "./Car"
 
 export default function Listing () {
     const [filter, setFilter] = useState(9)
+    const [color, setColor] = useState("bg-red-600")
+    const [colorH, setColorH] = useState("bg-red-700")
 
     function changeFilter(){
         setFilter(filter + 8)
     }
+
+    useEffect(() => {
+        if( filter >= json.length){
+            setColor("bg-gray-600")
+            setColorH("bg-gray-700")
+        }
+    },[filter])
+
 
     const list = json.filter((car) => car.id < filter)
 
@@ -24,7 +34,7 @@ export default function Listing () {
                 })}
             </section>
 
-            <span className="bg-red-600 hover:bg-red-700 rounded-md px-8 py-1 text-white text-lg cursor-pointer mt-3 lg:mt-5" onClick={changeFilter}>
+            <span className={`${color} hover:${colorH} disabled: rounded-md px-8 py-1 text-white text-lg cursor-pointer mt-3 lg:mt-5`} onClick={changeFilter}>
                 Ver mais +
             </span>
         </section>
