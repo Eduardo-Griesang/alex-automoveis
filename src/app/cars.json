@@ -134,15 +134,5 @@
         "adicionais": ["Air Bag","Air Bag Duplo","Alarme","Ar Condicionado","Ar Quente","Banco de Couro","Banco Regulável Altura","Câmbio CVT","Câmera de Ré","Chave Reserva","Computador de Bordo","Desembaçador Traseiro","Direção Elétrica","Direção Escamoteável","Direção Multifuncional","Entrada USB","Faróis Auxiliares","Interface","Manual do proprietário",
             "Multimídia","Parachoques na cor","Película Solar","Piloto Automatico","Porta Malas Elétrico","Protetor de Carter","Retrovisor Elétrico","Rodas de Liga Leve","Sensor de Estacionamento","Som Bluetooth","Som no Volante","Som Original","Som Rádio","Som Rádio CD","Travas Elétricas","Vidros Elétricos"],
         "comentario": "CARO DE SEGUNDO TODO, REVISADO ATÉ 88.000KM NA CONCESSIONARIA. CARRO COM 101.000KM IMPECÁVEL"
-    },
-    {   
-        "id": 14,
-        "img": "/carros/etios.jpeg",
-        "nome": "Hilux",
-        "ano": "2017/2018",
-        "preco": "R$65.990,00",
-        "adicionais": ["Air Bag","Air Bag Duplo","Alarme","Banco Regulável Altura","Câmbio CVT","Câmera de Ré","Chave Reserva","Computador de Bordo","Desembaçador Traseiro","Direção Elétrica","Direção Escamoteável","Direção Multifuncional","Entrada USB","Faróis Auxiliares","Interface","Manual do proprietário",
-            "Multimídia","Parachoques na cor","Película Solar","Piloto Automatico","Porta Malas Elétrico","Protetor de Carter","Retrovisor Elétrico","Rodas de Liga Leve","Sensor de Estacionamento","Som Bluetooth","Som no Volante","Som Original","Som Rádio","Som Rádio CD","Travas Elétricas","Vidros Elétricos"],
-        "comentario": "CARO DE SEGUNDO TODO, REVISADO ATÉ 88.000KM NA CONCESSIONARIA. CARRO COM 101.000KM IMPECÁVEL"
     }
 ]
