@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faRoad, faGasPump } from "@fortawesome/free-solid-svg-icons";
+import gearbox from "./gearbox.png"
 import { useAnimation, useInView, motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
@@ -35,9 +38,34 @@ export default function CarSec ({specs}){
                 />
 
                 <div className="flex flex-col items-start py-3 gap-1">
-                    <p className="font-semibold">{specs.ano}</p>
-                    <span className="font-semibold">{specs.preco}</span>
+                    <p className="font-semibold text-xs">{specs.ano}</p>
+                    <span className="font-semibold text-xs">{specs.preco}</span>
                     <h3 className="font-semibold text-sm">{specs.nome}</h3>
+                </div>
+
+                <div className="h-[1px] w-full bg-gray-300"></div>
+
+                <div className="flex gap-3 py-3 justify-center text-xs text-gray-600">
+                    <div className="flex gap-1 items-center capitalize">
+                        <FontAwesomeIcon icon={faRoad} />
+                        <span>{specs.km}km</span>
+                    </div>
+
+                    <div className="flex gap-1 items-center capitalize">
+                        <FontAwesomeIcon icon={faGasPump} />
+                        <span>{specs.gasolina}</span>
+                    </div>
+
+                    <div className="flex gap-1 items-center capitalize">
+                        <Image 
+                            src={gearbox} 
+                            width={16}
+                            height={16}
+                            alt="gearbox"
+                            className=""
+                         />
+                        <span>{specs.cambio}</span>
+                    </div>
                 </div>
 
                 <div className="flex justify-center items-center w-full bg-red-600 hover:bg-red-700 rounded-md">
